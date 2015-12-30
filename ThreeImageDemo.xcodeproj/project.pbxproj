@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC7441E01C33E3B900653839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7441DF1C33E3B900653839 /* main.m */; };
+		EC7441E31C33E3B900653839 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7441E21C33E3B900653839 /* AppDelegate.m */; };
+		EC7441E61C33E3B900653839 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7441E51C33E3B900653839 /* ViewController.m */; };
+		EC7441E91C33E3B900653839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7441E71C33E3B900653839 /* Main.storyboard */; };
+		EC7441EB1C33E3B900653839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7441EA1C33E3B900653839 /* Assets.xcassets */; };
+		EC7441EE1C33E3B900653839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7441EC1C33E3B900653839 /* LaunchScreen.storyboard */; };
+		EC7441F91C33E3B900653839 /* ThreeImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7441F81C33E3B900653839 /* ThreeImageDemoTests.m */; };
+		EC7442041C33E3B900653839 /* ThreeImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7442031C33E3B900653839 /* ThreeImageDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC7441F51C33E3B900653839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7441D31C33E3B900653839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7441DA1C33E3B900653839;
+			remoteInfo = ThreeImageDemo;
+		};
+		EC7442001C33E3B900653839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7441D31C33E3B900653839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7441DA1C33E3B900653839;
+			remoteInfo = ThreeImageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC7441DB1C33E3B900653839 /* ThreeImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7441DF1C33E3B900653839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC7441E11C33E3B900653839 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC7441E21C33E3B900653839 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC7441E41C33E3B900653839 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC7441E51C33E3B900653839 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC7441E81C33E3B900653839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC7441EA1C33E3B900653839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7441ED1C33E3B900653839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC7441EF1C33E3B900653839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7441F41C33E3B900653839 /* ThreeImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7441F81C33E3B900653839 /* ThreeImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeImageDemoTests.m; sourceTree = "<group>"; };
+		EC7441FA1C33E3B900653839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7441FF1C33E3B900653839 /* ThreeImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7442031C33E3B900653839 /* ThreeImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeImageDemoUITests.m; sourceTree = "<group>"; };
+		EC7442051C33E3B900653839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7441D81C33E3B900653839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7441F11C33E3B900653839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7441FC1C33E3B900653839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7441D21C33E3B900653839 = {
+			isa = PBXGroup;
+			children = (
+				EC7441DD1C33E3B900653839 /* ThreeImageDemo */,
+				EC7441F71C33E3B900653839 /* ThreeImageDemoTests */,
+				EC7442021C33E3B900653839 /* ThreeImageDemoUITests */,
+				EC7441DC1C33E3B900653839 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7441DC1C33E3B900653839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7441DB1C33E3B900653839 /* ThreeImageDemo.app */,
+				EC7441F41C33E3B900653839 /* ThreeImageDemoTests.xctest */,
+				EC7441FF1C33E3B900653839 /* ThreeImageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7441DD1C33E3B900653839 /* ThreeImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC7441E11C33E3B900653839 /* AppDelegate.h */,
+				EC7441E21C33E3B900653839 /* AppDelegate.m */,
+				EC7441E41C33E3B900653839 /* ViewController.h */,
+				EC7441E51C33E3B900653839 /* ViewController.m */,
+				EC7441E71C33E3B900653839 /* Main.storyboard */,
+				EC7441EA1C33E3B900653839 /* Assets.xcassets */,
+				EC7441EC1C33E3B900653839 /* LaunchScreen.storyboard */,
+				EC7441EF1C33E3B900653839 /* Info.plist */,
+				EC7441DE1C33E3B900653839 /* Supporting Files */,
+			);
+			path = ThreeImageDemo;
+			sourceTree = "<group>";
+		};
+		EC7441DE1C33E3B900653839 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC7441DF1C33E3B900653839 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC7441F71C33E3B900653839 /* ThreeImageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7441F81C33E3B900653839 /* ThreeImageDemoTests.m */,
+				EC7441FA1C33E3B900653839 /* Info.plist */,
+			);
+			path = ThreeImageDemoTests;
+			sourceTree = "<group>";
+		};
+		EC7442021C33E3B900653839 /* ThreeImageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7442031C33E3B900653839 /* ThreeImageDemoUITests.m */,
+				EC7442051C33E3B900653839 /* Info.plist */,
+			);
+			path = ThreeImageDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7441DA1C33E3B900653839 /* ThreeImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7442081C33E3B900653839 /* Build configuration list for PBXNativeTarget "ThreeImageDemo" */;
+			buildPhases = (
+				EC7441D71C33E3B900653839 /* Sources */,
+				EC7441D81C33E3B900653839 /* Frameworks */,
+				EC7441D91C33E3B900653839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeImageDemo;
+			productName = ThreeImageDemo;
+			productReference = EC7441DB1C33E3B900653839 /* ThreeImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC7441F31C33E3B900653839 /* ThreeImageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC74420B1C33E3B900653839 /* Build configuration list for PBXNativeTarget "ThreeImageDemoTests" */;
+			buildPhases = (
+				EC7441F01C33E3B900653839 /* Sources */,
+				EC7441F11C33E3B900653839 /* Frameworks */,
+				EC7441F21C33E3B900653839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7441F61C33E3B900653839 /* PBXTargetDependency */,
+			);
+			name = ThreeImageDemoTests;
+			productName = ThreeImageDemoTests;
+			productReference = EC7441F41C33E3B900653839 /* ThreeImageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC7441FE1C33E3B900653839 /* ThreeImageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC74420E1C33E3B900653839 /* Build configuration list for PBXNativeTarget "ThreeImageDemoUITests" */;
+			buildPhases = (
+				EC7441FB1C33E3B900653839 /* Sources */,
+				EC7441FC1C33E3B900653839 /* Frameworks */,
+				EC7441FD1C33E3B900653839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7442011C33E3B900653839 /* PBXTargetDependency */,
+			);
+			name = ThreeImageDemoUITests;
+			productName = ThreeImageDemoUITests;
+			productReference = EC7441FF1C33E3B900653839 /* ThreeImageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7441D31C33E3B900653839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = haibin;
+				TargetAttributes = {
+					EC7441DA1C33E3B900653839 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EC7441F31C33E3B900653839 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EC7441DA1C33E3B900653839;
+					};
+					EC7441FE1C33E3B900653839 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EC7441DA1C33E3B900653839;
+					};
+				};
+			};
+			buildConfigurationList = EC7441D61C33E3B900653839 /* Build configuration list for PBXProject "ThreeImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7441D21C33E3B900653839;
+			productRefGroup = EC7441DC1C33E3B900653839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7441DA1C33E3B900653839 /* ThreeImageDemo */,
+				EC7441F31C33E3B900653839 /* ThreeImageDemoTests */,
+				EC7441FE1C33E3B900653839 /* ThreeImageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7441D91C33E3B900653839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7441EE1C33E3B900653839 /* LaunchScreen.storyboard in Resources */,
+				EC7441EB1C33E3B900653839 /* Assets.xcassets in Resources */,
+				EC7441E91C33E3B900653839 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7441F21C33E3B900653839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7441FD1C33E3B900653839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7441D71C33E3B900653839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7441E61C33E3B900653839 /* ViewController.m in Sources */,
+				EC7441E31C33E3B900653839 /* AppDelegate.m in Sources */,
+				EC7441E01C33E3B900653839 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7441F01C33E3B900653839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7441F91C33E3B900653839 /* ThreeImageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7441FB1C33E3B900653839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7442041C33E3B900653839 /* ThreeImageDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC7441F61C33E3B900653839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7441DA1C33E3B900653839 /* ThreeImageDemo */;
+			targetProxy = EC7441F51C33E3B900653839 /* PBXContainerItemProxy */;
+		};
+		EC7442011C33E3B900653839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7441DA1C33E3B900653839 /* ThreeImageDemo */;
+			targetProxy = EC7442001C33E3B900653839 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC7441E71C33E3B900653839 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7441E81C33E3B900653839 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC7441EC1C33E3B900653839 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7441ED1C33E3B900653839 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC7442061C33E3B900653839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7442071C33E3B900653839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7442091C33E3B900653839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThreeImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ThreeImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC74420A1C33E3B900653839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThreeImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ThreeImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC74420C1C33E3B900653839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThreeImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ThreeImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeImageDemo.app/ThreeImageDemo";
+			};
+			name = Debug;
+		};
+		EC74420D1C33E3B900653839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThreeImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ThreeImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeImageDemo.app/ThreeImageDemo";
+			};
+			name = Release;
+		};
+		EC74420F1C33E3B900653839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThreeImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ThreeImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThreeImageDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC7442101C33E3B900653839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThreeImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ThreeImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThreeImageDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7441D61C33E3B900653839 /* Build configuration list for PBXProject "ThreeImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7442061C33E3B900653839 /* Debug */,
+				EC7442071C33E3B900653839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7442081C33E3B900653839 /* Build configuration list for PBXNativeTarget "ThreeImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7442091C33E3B900653839 /* Debug */,
+				EC74420A1C33E3B900653839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC74420B1C33E3B900653839 /* Build configuration list for PBXNativeTarget "ThreeImageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC74420C1C33E3B900653839 /* Debug */,
+				EC74420D1C33E3B900653839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC74420E1C33E3B900653839 /* Build configuration list for PBXNativeTarget "ThreeImageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC74420F1C33E3B900653839 /* Debug */,
+				EC7442101C33E3B900653839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7441D31C33E3B900653839 /* Project object */;
+}
